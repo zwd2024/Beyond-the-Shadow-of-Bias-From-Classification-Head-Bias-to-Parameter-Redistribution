@@ -84,7 +84,7 @@ unlearn_time = time.time() - start_time
 | System | Specification               | Software | Version     |
 | ------ | --------------------------- | -------- | ----------- |
 | OS     | Ubuntu 20.04.6 LTS          | Python   | 3.9.15      |
-| CPU    | Intel(R) Xeon(R) Gold 6240R | PyTorch  | 2.5.0.post0 |
+| CPU    | Intel(R) Xeon(R) Gold 6240R | Torch  | 2.6.0 |
 | GPU    | V100S-PCIE-32GB             | CUDA     | 12.8        |
 
 **Table 7: Learning rates of core methods.**
