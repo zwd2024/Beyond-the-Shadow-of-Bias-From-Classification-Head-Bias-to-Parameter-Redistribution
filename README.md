@@ -1,0 +1,2 @@
+# Beyond-the-Shadow-of-Bias-From-Classification-Head-Bias-to-Parameter-Redistribution
+This work focuses on class level machine unlearning. We systematically analyze how gradient based unlearning affects classification head bias and demonstrate that most existing methods over rely on the bias term of the forget class. We propose BiasShift, TS-BGRM, LB-HR, and FGLU unlearning frameworks, as well as BSC, MBS, and MBG evaluation metrics
