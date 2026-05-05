@@ -14,7 +14,7 @@
 
 ## How to Reproduce Our Experiments
 
-Our experiments are built upon the codebase of Yichen et al. ([CMF_Unlearning](https://github.com/ycgao1/CMF_Unlearning)). Their code is well-structured and includes many baseline methods, allowing us to focus on our contributions. This repository provides all the core code required beyond their original implementation. Below we provide a step-by-step guide to reproduce our results.
+Our experiments are built upon the codebase of Yichen et al. ([CMF_Unlearning](https://github.com/ycgao1/CMF_Unlearning)). Their code is well-structured and includes many baseline methods, allowing us to focus on our contributions. To avoid copyright disputes, this code repository only provides the core code that is necessary beyond the code contributed by Yichen and others. Below we provide a step-by-step guide to reproduce our results.
 
 ### Step 1: Create Conda Environment
 
