@@ -1,6 +1,6 @@
 # Beyond the Shadow of Bias: From Classification Head Bias to Parameter Redistribution
 
-> 论文 *《Beyond the Shadow of Bias: From Classification Head Bias to Parameter Redistribution》* 官方代码
+> 论文 *《Classification-Head Bias in Class-Level Machine Unlearning: Diagnosis, Mitigation, and Evaluation》* 的官方代码
 
 ---
 
@@ -124,9 +124,4 @@ unlearn_time = time.time() - start_time
 
 ---
 
-## 一个潜在的研究点
-
-在论文中，我们提出的 FGLU 遗忘框架并没有进行实验验证。我们欢迎广大研究者通过实验去验证我们的框架！
-
----
 
