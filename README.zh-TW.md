@@ -81,13 +81,15 @@ unlearn_time = time.time() - start_time
 
 ### 實驗設備及參數設置
 
+**表1：實驗運行環境**
+
 | 系統     | 具體信息                    | 軟體    | 版本        |
 | -------- | --------------------------- | ------- | ----------- |
 | 系統環境 | Ubuntu 20.04.6 LTS          | Python  | 3.9.18      |
 | CPU      | Intel(R) Xeon(R) Gold 6240R | Torch | 2.6.0 |
 | GPU      | V100S-PCIE-32GB             | CUDA    | 12.8        |
 
-### 超參數設置
+**表2：超參數設置**
 
 | 方法     | 保留集學習率 | 遺忘集學習率 |
 | -------- | ------------ | ------------ |
@@ -98,18 +100,9 @@ unlearn_time = time.time() - start_time
 | TS-BGRM  | 0.001        | 0.01         |
 | LB-HR    | 0.1          | -            |
 
-**表7：核心方法的學習率。**
 
-| Method   | Retain | Forget |
-| -------- | ------ | ------ |
-| Original | 0.1    | -      |
-| Retrain  | 0.1    | -      |
-| SF       | 0.001  | 0.01   |
-| TS-BGM   | 0.001  | 0.01   |
-| TS-BGRM  | 0.001  | 0.01   |
-| LB-HR    | 0.1    | -      |
 
-**表8：核心方法使用的epoch數。**
+**表3：核心方法使用的epoch數。**
 
 <img width="1128" height="265" alt="image" src="https://github.com/user-attachments/assets/6794a870-dc7d-4989-bce0-d28021ffec98" />
 
