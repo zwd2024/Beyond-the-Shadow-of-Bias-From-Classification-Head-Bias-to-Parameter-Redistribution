@@ -81,13 +81,15 @@ unlearn_time = time.time() - start_time
 
 ### Experimental Setup
 
+**Table 1: Experimental environment**
+
 | System | Specification               | Software | Version     |
 | ------ | --------------------------- | -------- | ----------- |
 | OS     | Ubuntu 20.04.6 LTS          | Python   | 3.9.15      |
 | CPU    | Intel(R) Xeon(R) Gold 6240R | Torch  | 2.6.0 |
 | GPU    | V100S-PCIE-32GB             | CUDA     | 12.8        |
 
-**Table 7: Learning rates of core methods.**
+**Table 2: Learning rates of core methods.**
 
 | Method   | Retain | Forget |
 | -------- | ------ | ------ |
@@ -100,7 +102,7 @@ unlearn_time = time.time() - start_time
 
 
 
-**Table 8: Number of epochs used by core methods.**
+**Table 3: Number of epochs used by core methods.**
 
 <img width="1128" height="265" alt="image" src="https://github.com/user-attachments/assets/9035d05a-f0ce-422f-81f2-13ccb62c0ddc" />
 
