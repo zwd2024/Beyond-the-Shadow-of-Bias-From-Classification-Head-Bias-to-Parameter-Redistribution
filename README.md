@@ -1,6 +1,6 @@
 # Beyond the Shadow of Bias: From Classification Head Bias to Parameter Redistribution
 
-> Official code for the paper *"Beyond the Shadow of Bias: From Classification Head Bias to Parameter Redistribution"*
+> Official code for the paper *"Classification-Head Bias in Class-Level Machine Unlearning: Diagnosis, Mitigation, and Evaluation"*
 
 ---
 
@@ -126,9 +126,4 @@ With the above steps, we believe you can successfully reproduce our experiments!
 
 ---
 
-## A Potential Research Direction
-
-The FGLU framework proposed in our paper has not yet been empirically validated. We welcome researchers to conduct experiments to evaluate its effectiveness.
-
----
 
