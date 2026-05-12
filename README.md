@@ -114,7 +114,7 @@ With the above steps, we believe you can successfully reproduce our experiments!
 
 ## Paper Introduction
 
-**Beyond the Shadow of Bias: From Classification Head Bias to Parameter Redistribution**
+**Classification-Head Bias in Class-Level Machine Unlearning: Diagnosis, Mitigation, and Evaluation**
 
 **Abstract:** As deep learning models are trained on massive datasets, they inevitably learn low-quality, outdated, or private information, which may degrade performance or raise security concerns. This paper focuses on class-level machine unlearning. We systematically analyze how gradient-based unlearning updates affect classification head bias and demonstrate that existing methods heavily rely on the bias term of the forget class. Based on this observation, we propose BiasShift, which confines unlearning to the bias term and achieves highly efficient forgetting under conventional metrics. However, BiasShift still suffers from bias dependence and potential privacy risks. Therefore, we shift the unlearning effect from bias to classification head weights and feature extractor layers, proposing TS-BGRM, LB-HR, and FGLU frameworks. We also introduce BSC, MBS, and MBG metrics to quantify bias dependence in unlearning.
 
