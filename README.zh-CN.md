@@ -81,13 +81,14 @@ unlearn_time = time.time() - start_time
 
 ### 实验设备及参数设置
 
+**表1：实验运行环境**
 | 系统     | 具体信息                    | 软件    | 版本        |
 | -------- | --------------------------- | ------- | ----------- |
 | 系统环境 | Ubuntu 20.04.6 LTS          | Python  | 3.9.15      |
 | CPU      | Intel(R) Xeon(R) Gold 6240R | Torch | 2.6.0 |
 | GPU      | V100S-PCIE-32GB             | CUDA    | 12.8        |
 
-**表7：核心方法的学习率**
+**表2：核心方法的学习率**
 
 | Method   | Retain | Forget |
 | -------- | ------ | ------ |
@@ -100,7 +101,7 @@ unlearn_time = time.time() - start_time
 
 
 
-**表8：核心方法使用epoch数**
+**表3：核心方法使用epoch数**
 
 <img width="1128" height="265" alt="image" src="https://github.com/user-attachments/assets/15ed52ff-c31d-4582-a034-0c5c21c34281" />
 
