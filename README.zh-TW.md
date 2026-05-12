@@ -111,15 +111,7 @@ unlearn_time = time.time() - start_time
 
 **表8：核心方法使用的epoch數。**
 
-| Method   | CIFAR10 |      | CIFAR100 |      | Tiny-Imagenet |      |
-| -------- | ------- | ---- | -------- | ---- | ------------- | ---- |
-|          | 1       | 3    | 1        | 3    | 1             | 3    |
-| Original | 150     | 150  | 150      | 150  | 150           | 10   |
-| Retrain  | 150     | 150  | 150      | 150  | 5             | 5    |
-| SF       | 8       | 8    | 20       | 20   | 10            | 10   |
-| TS-BGM   | 1       | 1    | 2        | 12   | 1             | 4    |
-| TS-BGRM  | 1       | 1    | 2        | 12   | 4             | 1    |
-| LB-HR    | 5       | 6    | 10       | 10   | 5             | 5    |
+<img width="1128" height="265" alt="image" src="https://github.com/user-attachments/assets/6794a870-dc7d-4989-bce0-d28021ffec98" />
 
 
 
