@@ -102,15 +102,7 @@ unlearn_time = time.time() - start_time
 
 **Table 8: Number of epochs used by core methods.**
 
-| Method   | CIFAR10 |      | CIFAR100 |      | Tiny-Imagenet |      |
-| -------- | ------- | ---- | -------- | ---- | ------------- | ---- |
-|          | 1       | 3    | 1        | 3    | 1             | 3    |
-| Original | 150     | 150  | 150      | 150  | 150           | 150   |
-| Retrain  | 150     | 150  | 150      | 150  | 150             | 150    |
-| SF       | 8       | 8    | 20       | 20   | 10            | 10   |
-| TS-BGM   | 1       | 1    | 2        | 12   | 1             | 4    |
-| TS-BGRM  | 1       | 1    | 2        | 12   | 4             | 1    |
-| LB-HR    | 5       | 6    | 10       | 10   | 5             | 5    |
+<img width="1128" height="265" alt="image" src="https://github.com/user-attachments/assets/9035d05a-f0ce-422f-81f2-13ccb62c0ddc" />
 
 
 
