@@ -111,7 +111,7 @@ unlearn_time = time.time() - start_time
 
 ## 论文介绍
 
-**Beyond the Shadow of Bias: From Classification Head Bias to Parameter Redistribution**
+**Classification-Head Bias in Class-Level Machine Unlearning: Diagnosis, Mitigation, and Evaluation**
 
 **摘要：** 随着人工智能模型的发展，模型在海量数据的训练下极易学习到一些低质的、过时的或者隐私数据，从而影响模型性能或者带来一些安全隐患。本文聚焦于类别级遗忘，全面且系统地分析了基于梯度的遗忘更新对模型分类头偏置的影响，并通过实验证明了现有大部分遗忘方法过度依赖遗忘类对应分类头的偏置项。基于此，我们将对遗忘发挥作用的参数局限于遗忘类的分类头偏置，提出了在传统评价指标上实现最高效遗忘的 BiasShift 方法，但该方法与现有大部分方法一样高度依赖分类头偏置，可能会存在一些隐私问题。因此，我们将对遗忘发挥作用的参数由分类头偏置转移到分类头权重、特征提取层参数，提出了 TS-BGRM、LB-HR 和 FGLU 等遗忘框架，并提出了 BSC、MBS、MBG 等评价指标来衡量遗忘对分类头偏置的依赖程度。
 
